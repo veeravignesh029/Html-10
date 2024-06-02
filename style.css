@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.button {
+    position: static;
+    bottom: 20px; 
+    right: 10px; 
+    background-color: #2196F3;
+    color: white;
+    border: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1976D2;
+}
